@@ -118,6 +118,7 @@ function conversaoMoeda(){
        default:
            document.getElementById("valorFinal").textContent = resultado
    }
+}
    function verificarCPF(){
       let cpf = document.getElementById("entrada").value
       let resultado = ""
